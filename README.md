@@ -1,5 +1,7 @@
 # Frontend Mentor - Article preview component
 
+Link to Live Site: https://article-preview-component-frontend-mentor-beginner.vercel.app/
+
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
