@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+/* Globals */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  font-size: 13px;
+  height: 100vh;
+}
+
+h1,
+p {
+  font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: bold;
+  letter-spacing: 0.2px;
+  color: #48556a;
+}
+
+p {
+  line-height: 20px;
+  font-style: normal;
+  letter-spacing: 0.121875px;
+  color: #6e8098;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+/* Inside the card */
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+  border-radius: 10px;
+  width: 327px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image {
+  overflow: hidden;
+  width: 327px;
+  height: 200px;
+}
+
+.card img {
+  width: 100%;
+  left: calc(50% - 327px / 2);
+  top: calc(50% - 490px / 2 - 99px);
+  border-radius: 10px;
+}
+
+.content {
+  width: 263px;
+}
+
+.content h1 {
+  margin-top: 36px;
+}
+
+.content p {
+  width: -moz-fit-content;
+  margin-top: 6px;
+}
+
+.authorcontainer {
+  display: flex;
+}
+
+/* frontendmentor.com attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
