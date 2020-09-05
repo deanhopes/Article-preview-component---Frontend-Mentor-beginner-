@@ -75,13 +75,38 @@ p {
   margin-top: 36px;
 }
 
-.content p {
+.text p {
   width: -moz-fit-content;
   margin-top: 6px;
 }
 
+.author {
+  padding-left: 16px;
+}
+
 .authorcontainer {
   display: flex;
+  margin: 32px 0 32px;
+}
+
+.authorcontainer img {
+  flex-basis: content;
+  height: 40px;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.authornamedate {
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+#authorname {
+  margin-top: 0;
+}
+
+#authordate {
+  margin-top: 0;
 }
 
 /* frontendmentor.com attribution */
