@@ -11,6 +11,7 @@ body {
   justify-content: center;
   font-size: 13px;
   height: 100vh;
+  background-color: #ecf2f8;
 }
 
 h1,
@@ -87,13 +88,14 @@ p {
 .authorcontainer {
   display: flex;
   margin: 32px 0 32px;
+  align-items: center;
 }
 
 .authorcontainer img {
-  flex-basis: content;
   height: 40px;
+  width: auto;
   align-self: center;
-  border-radius: 15px;
+  border-radius: 100%;
 }
 
 .authornamedate {
@@ -109,6 +111,23 @@ p {
   margin-top: 0;
 }
 
+.dot {
+  height: 32px;
+  width: 32px;
+  background-color: #ecf2f8;
+  border-radius: 100%;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dot img {
+  height: 13px;
+  width: 15px;
+  border-radius: 0;
+}
+
 /* frontendmentor.com attribution */
 
 .attribution {
@@ -116,6 +135,7 @@ p {
   text-align: center;
   position: relative;
   padding-bottom: 10px;
+  z-index: -1;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
