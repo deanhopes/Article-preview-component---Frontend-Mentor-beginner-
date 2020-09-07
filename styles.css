@@ -104,7 +104,7 @@ p {
   padding: 0 0 0 0;
 }
 
-#authorname {
+.authorname {
   margin-top: 0;
   font-weight: bold;
   font-size: 13px;
@@ -113,7 +113,7 @@ p {
   color: #48556a;
 }
 
-#authordate {
+.authordate {
   margin-top: 0;
   font-weight: 500;
   font-size: 13px;
