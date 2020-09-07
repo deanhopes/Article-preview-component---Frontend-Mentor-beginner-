@@ -62,6 +62,7 @@ p {
 
 #image img {
   width: 350px;
+  border-radius: 10px;
 }
 
 .authorcontainer img {
