@@ -87,6 +87,7 @@ p {
 
 .authorcontainer {
   display: flex;
+  flex: auto;
   margin: 32px 0 32px;
   align-items: center;
 }
@@ -105,6 +106,11 @@ p {
 
 #authorname {
   margin-top: 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #48556a;
 }
 
 #authordate {
