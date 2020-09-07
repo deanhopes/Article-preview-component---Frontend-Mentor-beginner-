@@ -48,48 +48,20 @@ p {
   background: #ffffff;
   box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
   border-radius: 10px;
-  width: 327px;
-  height: 512px;
+  width: 730px;
+  height: 280px;
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 #image {
   overflow: hidden;
-  width: 327px;
-  height: 200px;
+  width: 285px;
+  height: 100%;
 }
 
-.card img {
-  width: 100%;
-  left: calc(50% - 327px / 2);
-  top: calc(50% - 490px / 2 - 99px);
-  border-radius: 10px;
-}
-
-.content {
-  width: 263px;
-}
-
-.content h1 {
-  margin-top: 36px;
-}
-
-.text p {
-  width: -moz-fit-content;
-  margin-top: 6px;
-}
-
-.author {
-  padding-left: 16px;
-}
-
-.authorcontainer {
-  display: flex;
-  flex: auto;
-  margin: 32px 0 32px;
-  align-items: center;
+#image img {
+  width: 350px;
 }
 
 .authorcontainer img {
@@ -99,13 +71,43 @@ p {
   border-radius: 100%;
 }
 
-.authornamedate {
-  margin: 0;
-  padding: 0 0 0 0;
+.content {
+  width: 365px;
+  margin-left: auto;
+  padding-right: 40px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #48556a;
+}
+
+p {
+  line-height: 20px;
+  font-style: normal;
+  letter-spacing: 0.121875px;
+  color: #6e8098;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.authorcontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author {
+  padding-left: 16px;
 }
 
 .authorname {
-  margin-top: 0;
+  margin-top: 0px;
+  font-style: normal;
   font-weight: bold;
   font-size: 13px;
   line-height: 20px;
@@ -114,7 +116,7 @@ p {
 }
 
 .authordate {
-  margin-top: 0;
+  margin-top: 0px;
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
@@ -139,8 +141,6 @@ p {
   border-radius: 0;
 }
 
-/* frontendmentor.com attribution */
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -150,4 +150,114 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 756px) {
+  .card {
+    background: #ffffff;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+    border-radius: 10px;
+    width: 327px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #image {
+    overflow: hidden;
+    width: 327px;
+    height: 200px;
+  }
+
+  .card img {
+    width: 100%;
+    left: calc(50% - 327px / 2);
+    top: calc(50% - 490px / 2 - 99px);
+    border-radius: 10px;
+  }
+
+  .content {
+    width: 263px;
+  }
+
+  .content h1 {
+    margin-top: 36px;
+  }
+
+  .text p {
+    width: -moz-fit-content;
+    margin-top: 6px;
+  }
+
+  .author {
+    padding-left: 16px;
+  }
+
+  .authorcontainer {
+    display: flex;
+    flex: auto;
+    margin: 32px 0 32px;
+    align-items: center;
+  }
+
+  .authorcontainer img {
+    height: 40px;
+    width: auto;
+    align-self: center;
+    border-radius: 100%;
+  }
+
+  .authornamedate {
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+
+  .authorname {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #48556a;
+  }
+
+  .authordate {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #9daec2;
+  }
+
+  .dot {
+    height: 32px;
+    width: 32px;
+    background-color: #ecf2f8;
+    border-radius: 100%;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dot img {
+    height: 13px;
+    width: 15px;
+    border-radius: 0;
+  }
+
+  /* frontendmentor.com attribution */
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    z-index: -1;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
